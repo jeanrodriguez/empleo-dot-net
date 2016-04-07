@@ -9,8 +9,6 @@ namespace Android
 		public static readonly string MainPage = "MainPage";
 
 		public static readonly string FilterLocationScreen = "FilterLocationScreen";
-
-		public static readonly string AboutScreen = "AboutScreen";
 	}
 
 	public class Extras

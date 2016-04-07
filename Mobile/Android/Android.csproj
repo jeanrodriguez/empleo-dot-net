@@ -178,12 +178,6 @@
     <Compile Include="Services\AppInfoService.cs" />
     <Compile Include="MainPage\JobDetailFragmentViewModel.cs" />
     <Compile Include="MainPage\JobDetailFragment.cs" />
-    <Compile Include="MainPage\MainPageActivityViewModel.cs" />
-    <Compile Include="MainPage\OptionMenu.cs" />
-    <Compile Include="MainPage\ShowAs.cs" />
-    <Compile Include="About\AboutActivity.cs" />
-    <Compile Include="About\AboutViewModel.cs" />
-    <Compile Include="About\ContributorAddedEventHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -246,9 +240,6 @@
     <AndroidResource Include="Resources\layout\SplashScreenLayout.axml" />
     <AndroidResource Include="Resources\drawable\logo.png" />
     <AndroidResource Include="Resources\drawable\progress_drawable_blue.xml" />
-    <AndroidResource Include="Resources\menu\MainPageActivityMenu.xml" />
-    <AndroidResource Include="Resources\layout\AboutLayout.axml" />
-    <AndroidResource Include="Resources\layout\ContributorItem.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -283,8 +274,6 @@
     <Folder Include="Framework\Bootstrapping\" />
     <Folder Include="SplashScreen\" />
     <Folder Include="Resources\transition\" />
-    <Folder Include="Resources\menu\" />
-    <Folder Include="About\" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="xamandroidsupportv7cardview">

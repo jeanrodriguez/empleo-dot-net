@@ -38,8 +38,6 @@ namespace Empleado
 
 				nav.Configure(ScreenName.FilterLocationScreen, typeof(SearchActivity));
 
-				nav.Configure(ScreenName.AboutScreen, typeof(AboutActivity));
-
 				SimpleIoc.Default.Register<INavigationService>(() => nav);
 
 				Run();
@@ -62,7 +60,6 @@ namespace Empleado
 				SimpleIoc.Default.Register<ILanguageService, LanguageService>();
 				SimpleIoc.Default.Register<IContextService,ContextService>();
 				SimpleIoc.Default.Register<IJobsApiService, FakeJobsApiService>();
-				SimpleIoc.Default.Register<IGithubContributorService, OctocatContributorService>();
 			}
 		}
 
@@ -77,8 +74,6 @@ namespace Empleado
 			SimpleIoc.Default.Register<ViewPagerFragmentViewModel,ViewPagerFragmentViewModel>();
 			SimpleIoc.Default.Register<SearchViewModel,SearchViewModel>();
 			SimpleIoc.Default.Register<JobDetailFragmentViewModel,JobDetailFragmentViewModel>();
-			SimpleIoc.Default.Register<MainPageActivityViewModel,MainPageActivityViewModel>();
-			SimpleIoc.Default.Register<AboutViewModel,AboutViewModel>();
 		}
 	}
 }
